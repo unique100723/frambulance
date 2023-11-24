@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FR AMBULANCE SERVICES</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Light Gray */
+            color: #495057; /* Dark Gray */
+        }
+
+        header {
+            background-color: #343a40; /* Dark Gray */
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #495057; /* Medium Gray */
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em;
+        }
+
+        section {
+            padding: 2em;
+        }
+
+        .contact-details {
+            text-align: center;
+            margin-top: 20px;
+            background-color: #007bff; /* Primary Blue */
+            padding: 20px;
+            border-radius: 8px;
+            color: #fff;
+        }
+
+        .location-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+
+        .feedback-box {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #007bff; /* Primary Blue */
+            border-radius: 8px;
+        }
+
+        footer {
+            background-color: #343a40; /* Dark Gray */
+            color: #fff;
+            padding: 1em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>FR AMBULANCE SERVICES</h1>
+    </header>
+
+    <nav>
+        <nav class="bg-secondary text-white text-center py-2">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home" class="text-center py-5">
+        <h2>Welcome to Ambulance Services</h2>
+        <img src="ambulance.jpg" alt="Ambulance" style="width: 100%; max-width: 800px; height: auto;">
+        <p>Providing timely and efficient ambulance services when you need it the most.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Details</h2>
+        <div class="contact-details">
+            <p>Location: Korutla, Metpally, Nizamabad, Jagtiyal, Karimnagar</p>
+        </div>
+        <div class="location-buttons">
+            <button type="button" class="btn btn-primary">8866327327</button>
+            <button type="button" class="btn btn-primary">9505187498</button>
+            <button type="button" class="btn btn-primary">8885343458</button>
+            <button type="button" class="btn btn-primary">6302252432</button>
+        </div>
+        <div class="feedback-box">
+            <h3>How was your experience with our services?</h3>
+            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea>
+            <br>
+            <button type="button" class="btn btn-info">Submit Feedback</button>
+        </div>
+        <p>We are here for you 24*7! Our services include oxygen cylinders, A/C ventilation, and we have a fleet of 4 ambulances. Just contact us, and we will be there in minutes.</p>
+        <form>
+            <label for="message">Have any questions or need assistance? Send us a message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <br>
+            <button type="submit" class="btn btn-success">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; Designed by MOHAMMAD SHOAIB.</p>
+    </footer>
+
+</body>
+</html>
